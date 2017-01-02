@@ -2436,7 +2436,7 @@ footer.post-meta .post-categories {display: block;}
 /* ========================================================================== */
 
 .testimonial .media-body {padding-right: 15px;}
-.testimonial .media-heading {font-weight: 700; color: #0d1d31; font-size: 16px; margin-bottom: 0;}
+.testimonial .media-heading {font-weight: 700; color: #fff; font-size: 16px; margin-bottom: 0;}
 .testimonial .media-heading small {}
 .testimonials.owl-carousel .owl-item img {width: auto;}
 .testimonials.owl-theme .owl-dots .owl-dot span {
