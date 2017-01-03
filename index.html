@@ -182,13 +182,135 @@
                     <!-- Testimonials -->
                 </div>
             </section>
+
             <!-- DEPARTMENT -->
             <section class="page-section" id="departments">
                 <div class="container">
+
+                <!-- Carnage Rules-->
+                <div id="carnageRules" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal Content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" type="button" data-dismiss="modal">&times;</button>
+                                <h4>Event Description</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Throw Everything in here</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-danger" type="button" data-dismiss="modal" onclick="showEventModal(0)">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Carnage Rules -->
+
+                <!-- Junkyard Rules-->
+                <div id="junkyardRules" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal Content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" type="button" data-dismiss="modal">&times;</button>
+                                <h4>Event Description</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Throw Everything in here</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-danger" type="button" data-dismiss="modal" onclick="showEventModal(0)">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Junkyard Rules -->
+
+                <!-- LFR Rules-->
+                <div id="lfrRules" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal Content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" type="button" data-dismiss="modal">&times;</button>
+                                <h4>Event Description</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Throw Everything in here</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-danger" type="button" data-dismiss="modal" onclick="showEventModal(0)">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /LFR Rules -->
+
+                <!-- roboRugby Rules-->
+                <div id="roboRugbyRules" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal Content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" type="button" data-dismiss="modal">&times;</button>
+                                <h4>Event Description</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Throw Everything in here</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-danger" type="button" data-dismiss="modal" onclick="showEventModal(0)">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /roboRugby Rules -->
+
+                <!-- roboMaze Rules-->
+                <div id="roboMazeRules" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal Content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" type="button" data-dismiss="modal">&times;</button>
+                                <h4>Event Description</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Throw Everything in here</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-danger" type="button" data-dismiss="modal" onclick="showEventModal(0)">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /roboMaze Rules -->
+
+                <!-- roboWars Rules-->
+                <div id="roboWarsRules" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal Content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" type="button" data-dismiss="modal">&times;</button>
+                                <h4>Event Description</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Throw Everything in here</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-danger" type="button" data-dismiss="modal" onclick="showEventModal(0)">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /roboWars Rules -->
+
                     <!-- Robo Modal -->
                     <div id="roboModal" class="modal fade" role="dialog">
                         <div class="modal-dialog">
-                            <!-- Model Content -->
+                            <!-- Modal Content -->
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -199,42 +321,42 @@
                                         <li>
                                             <div class="modal-card">
                                                 <p>Carnage</p>
-                                                <button class="btn btn-primary">Rules</button>
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#carnageRules" onclick="hideRegisterModal(0)">Rules</button>
                                                 <a href="https://goo.gl/forms/bEzuj9yXBxtsfwi03" class="btn btn-success">Register</a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="modal-card">
                                                 <p>Junkyard</p>
-                                                <button class="btn btn-primary">Rules</button>
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#junkyardRules" onclick="hideRegisterModal(0)">Rules</button>
                                                 <a href="https://goo.gl/forms/ZkorApW0xvGWfJ1A3" class="btn btn-success">Register</a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="modal-card">
                                                 <p>Robowars</p>
-                                                <button class="btn btn-primary">Rules</button>
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#roboWarsRules" onclick="hideRegisterModal(0)">Rules</button>
                                                 <a href="https://goo.gl/forms/WGgqU3sx3h5mJVQp1" class="btn btn-success">Register</a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="modal-card">
                                                 <p>LFR</p>
-                                                <button class="btn btn-primary">Rules</button>
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#lfrRules" onclick="hideRegisterModal(0)">Rules</button>
                                                 <a href="https://goo.gl/forms/DDbEiLvA4pMEQkDH3" class="btn btn-success">Register</a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="modal-card">
                                                 <p>Robo Maze</p>
-                                                <button class="btn btn-primary">Rules</button>
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#roboMazeRules" onclick="hideRegisterModal(0)">Rules</button>
                                                 <a href="https://goo.gl/forms/EvMEhc58icLDEKLD3" class="btn btn-success">Register</a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="modal-card">
                                                 <p>Robo Rugby</p>
-                                                <button class="btn btn-primary">Rules</button>
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#roboRugbyRules" onclick="hideRegisterModal(0)">Rules</button>
                                                 <a href="https://goo.gl/forms/yX7iCVHRFPNHnfu72" class="btn btn-success">Register</a>
                                             </div>
                                         </li>
@@ -807,6 +929,31 @@
                 }
             }
         });
+
+        function hideRegisterModal(num){
+            /*
+            num represents which modal to show 
+            0 - Robotics Modal
+            1 - Technical Modal
+            2 - Literary Modal
+            3 - FnC Modal
+            */
+            var modal = num === 0 ? "#roboModal" : num === 1 ? "#techModal" : num === 2 ? "#litModal" : "#fncModal"
+            $(modal).find("button.close").trigger("click");
+            
+        }
+
+        function showEventModal(num){
+            /*
+            num represents which modal to show 
+            0 - Robotics Modal
+            1 - Technical Modal
+            2 - Literary Modal
+            3 - FnC Modal
+            */
+            var ele = $(".hex").find(".hexIn")[num];
+            ele.click();
+        }
         </script>
 </body>
 
