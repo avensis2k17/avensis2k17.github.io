@@ -2458,6 +2458,12 @@ footer.post-meta .post-categories {display: block;}
     }
 }
 
+.circular {
+    border: 5px solid white;
+    border-radius: 100px;
+    margin: auto;
+}
+
 /* HEXAGONS */
 
 .hex {
@@ -3680,4 +3686,8 @@ body.rtl .pagination > li > a {margin: 0 0 0 10px;}
 .modal-card {
     /*display: inline-flex;*/
     margin: 10px;
+}
+
+.nav-pills>li>a {
+    color: #1103ea;
 }
