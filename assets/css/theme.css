@@ -249,8 +249,7 @@ body.boxed {
 .boxed .page-section.image > .container {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-attachment: fixed;
-    background-image: url('../img/cover.jpg');
+    background-image: url('../img/back1.jpg');
     background-size: cover !important;
     background-position: 50% 0 !important;
     background-repeat: no-repeat;
@@ -265,16 +264,15 @@ body.boxed {
     position: absolute;
     top: 0; left: 0; right: 0;
     width: 100%; height: 100%;
-    background: transparent url("../img/cover.jpg") 50% 0 repeat;
+    background: transparent url("../img/back1.jpg") 50% 0 repeat;
 }
 .page-section.background-img-slider {position: relative;}
 .wide .page-section.background-img-slider,
 .boxed .page-section.background-img-slider > .container {
     height: 100%;
     width: 100%;
-    background: transparent url("../img/cover.jpg") 50% 0 no-repeat !important;
+    background: transparent url("../img/back1.jpg") 50% 0 no-repeat !important;
     background-position: 50% 0 !important;
-    background-attachment: fixed;
     background-size: cover !important;
 }
 .wide .page-section.background-img-slider > .container {
@@ -1438,7 +1436,7 @@ textarea {
     background-color: transparent;
     border-color: transparent;
     position: relative;
-    top: 450px;
+    top: 370px;
 }
 .countdown-amount {
     font-family: 'Raleway', sans-serif;
@@ -1588,7 +1586,7 @@ textarea {
 }
 .event-background {
     border-radius: 30px 30px 0 0;
-    background-color: #0d1d31;
+    background-color: #212121;
     margin: 0 auto;
     padding-bottom: 10px;
     width:70%;
@@ -2338,7 +2336,7 @@ footer.post-meta .post-categories {display: block;}
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
-    margin: 150px 0 0 0;
+    margin: 180px 0 0 0;
     color: #fff;
     text-align: center;
 }
@@ -2358,7 +2356,7 @@ footer.post-meta .post-categories {display: block;}
     text-transform: uppercase;
     margin: 0 0 0 0;
     position: relative;
-    top: 420px;
+    top: 330px;
     color: #fff;
     text-align: center;
 }
