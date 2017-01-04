@@ -2460,6 +2460,12 @@ footer.post-meta .post-categories {display: block;}
     }
 }
 
+.circular {
+    border: 5px solid white;
+    border-radius: 100px;
+    margin: auto;
+}
+
 /* HEXAGONS */
 
 .hex {
