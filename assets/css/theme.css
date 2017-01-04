@@ -1213,7 +1213,9 @@ textarea {
         display: none;
     }
 }
-
+#eventcolor{
+    color: #424242;
+}
 #main-slider.owl-theme .owl-controls .owl-nav [class*=owl-] {
     position: absolute;
     top: 50%;
