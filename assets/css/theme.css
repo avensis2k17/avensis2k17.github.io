@@ -3704,3 +3704,6 @@ u {
     overflow: auto;
     max-height: 420px;
 }
+#aboutInfo{
+    text-align: justify;
+}
