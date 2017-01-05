@@ -787,6 +787,33 @@
                         </div>
                     </div>
                     <!-- /karaoke Description -->
+                    <!-- groupDance Description-->
+                   
+                     <div id="vortexDescription" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal Content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button class="close" type="button" data-dismiss="modal">&times;</button>
+                                    <h4 id="eventcolor">Event Description</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>This is a group dance event .The team limit is of 10 members.Time limit is minimum 6 minutes and maximum 10 minutes.</p>
+                                    <h5 id="eventcolor">Guidlines:</h5>
+                                    <ol>
+                                        <li>1. There will be maximum of 10 members in the team and no member can take help from any other person during the task.</li>
+                                        <li>2. If a time limit is mentioned in any task, then the team will be judged only if it has performed within that limit. </li>
+                                        <li>3. All the players have to agree to the decision of the organisers.</li>
+                                    </ol>
+                                    <h5 id="eventcolor">Registration fees:None</h5>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-danger" type="button" data-dismiss="modal" onclick="showEventModal(3)">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /groupDance Description -->
                     <!-- galiSports Description-->
                     <div id="galiSportsDescription" class="modal fade" role="dialog">
                         <div class="modal-dialog">
@@ -1070,6 +1097,14 @@
                                                 <a href="https://goo.gl/forms/Jp1RWmaSpkJOFoJp1" class="btn btn-success">Register</a>
                                             </div>
                                         </li>
+                                        <li>
+                                            <div class="modal-card">
+                                                <p>Vortex</p>
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#vortexDescription" onclick="hideRegisterModal(3)">Description</button>
+                                                <a href="https://goo.gl/forms/fDaHsOaFliVAAy3L2" class="btn btn-success">Register</a>
+                                            </div>
+                                        </li>
+                                        
                                         <li>
                                             <div class="modal-card">
                                                 <p>Gali Sports</p>
