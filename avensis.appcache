@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v2.5
+# v2.6
 /assets/plugins/prettyphoto/images/prettyPhoto/light_square/btnPrevious.png
 /assets/plugins/prettyphoto/images/prettyPhoto/light_square/btnNext.png
 /assets/plugins/prettyphoto/images/prettyPhoto/light_square/sprite.png
@@ -73,6 +73,34 @@ CACHE MANIFEST
 /assets/img/partner/partner-4.png
 /assets/img/partner/partner-1.jpg
 /assets/ico/logo.jpg
+/assets/plugins/countdown/jquery.plugin.min.js
+/assets/plugins/countdown/jquery.countdown.css
+/assets/plugins/countdown/jquery.countdown.min.js
+/assets/plugins/jquery.smoothscroll.min.js
+/assets/plugins/bootstrap/js/bootstrap.min.js
+/assets/plugins/bootstrap/css/bootstrap.min.css
+/assets/plugins/placeholdem.min.js
+/assets/plugins/modernizr.custom.js
+/assets/plugins/jquery/jquery-2.1.1.min.js
+/assets/plugins/bootstrap-select/bootstrap-select.min.css
+/assets/plugins/bootstrap-select/bootstrap-select.min.js
+/assets/plugins/superfish/js/superfish.js
+/assets/plugins/prettyphoto/js/jquery.prettyPhoto.js
+/assets/plugins/prettyphoto/css/prettyPhoto.css
+/assets/plugins/fontawesome/css/font-awesome.min.css
+/assets/plugins/owlcarousel2/assets/owl.theme.default.min.css
+/assets/plugins/owlcarousel2/assets/owl.carousel.min.css
+/assets/plugins/owlcarousel2/owl.carousel.min.js
+/assets/plugins/animate/animate.min.css
+/assets/plugins/waypoints/waypoints.min.js
+/assets/plugins/jquery.easing.min.js
+/assets/js/custom.js
+/assets/js/theme-ajax-mail.js
+/assets/js/theme.js
+/assets/css/theme.css
+/assets/css/team.css
+/assets/css/hexagon.css
+
 
 
 NETWORK:
