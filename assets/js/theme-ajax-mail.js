@@ -1,7 +1,6 @@
 // Content Contact Form
 // ---------------------------------------------------------------------------------------
 $(function () {
-    console.log('Hello from contact form');
     $("#af-form .form-control").tooltip({placement: 'top', trigger: 'manual'}).tooltip('hide');
     $('#af-form .form-control').blur(function () {
         $(this).tooltip({placement: 'top', trigger: 'manual'}).tooltip('hide');
