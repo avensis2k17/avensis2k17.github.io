@@ -39,7 +39,7 @@ $(function () {
 
         $.ajax({
             type:"POST",
-            url:"assets/php/contact-form.php",
+            url:"https://jsonplaceholder.typicode.com/posts",
             data:dataString,
             success:function () {
                 $('#af-form').prepend("<div class=\"alert alert-success fade in\"><button class=\"close\" data-dismiss=\"alert\" type=\"button\">&times;</button><strong>Contact Form Submitted!</strong> We will be in touch soon.</div>");
